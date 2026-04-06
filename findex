@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Store | Shop the Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="promo-bar">FREE SHIPPING ON ORDERS OVER $50 🚚</div>
+
+    <nav class="navbar">
+        <div class="logo">LUXE<span>SHOP</span></div>
+        <div class="nav-icons">
+            <span class="cart-icon">🛒 <span class="cart-count">0</span></span>
+        </div>
+    </nav>
+
+    <main class="product-container">
+        <section class="image-gallery">
+            <div class="main-img">Product Image</div>
+            <div class="thumbnails">
+                <div class="thumb"></div>
+                <div class="thumb"></div>
+                <div class="thumb"></div>
+            </div>
+        </section>
+
+        <section class="product-info">
+            <div class="badge">BEST SELLER</div>
+            <h1>Signature Comfort Hoodie</h1>
+            <div class="rating">⭐⭐⭐⭐⭐ <span class="reviews">(128 Reviews)</span></div>
+            
+            <div class="price-tag">
+                <span class="current-price">$59.00</span>
+                <span class="old-price">$85.00</span>
+                <span class="save-badge">Save 30%</span>
+            </div>
+
+            <p class="description">
+                Engineered for maximum comfort and durability. Made from 100% organic cotton with a tailored fit that looks great on everyone.
+            </p>
+
+            <div class="options">
+                <label>Select Size</label>
+                <div class="size-picker">
+                    <button>S</button>
+                    <button class="active">M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                </div>
+            </div>
+
+            <div class="stock-warning">🔥 Only 5 items left in stock!</div>
+
+            <button class="add-to-cart">ADD TO CART — $59.00</button>
+            
+            <div class="trust-badges">
+                <div>🔒 Secure Checkout</div>
+                <div>🔄 30-Day Returns</div>
+            </div>
+        </section>
+    </main>
+
+</body>
